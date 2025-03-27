@@ -4,7 +4,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* Estilos base */
 .attribution { 
   font-size: 11px; 
   text-align: center; 
@@ -38,7 +37,6 @@ body {
   font-style: italic;
 }
 
-/* Formulário */
 form {
   display: flex;
   gap: 16px;
@@ -88,7 +86,6 @@ form {
   min-height: 16px;
 }
 
-/* Divisor e botão */
 .separation {
   position: relative;
   margin: 64px 0;
@@ -125,7 +122,6 @@ button img {
   height: 24px;
 }
 
-/* Resultados */
 .results {
   font-style: italic;
   font-weight: 800;
@@ -144,7 +140,6 @@ button img {
   font-style: italic;
 }
 
-/* Classes de erro */
 .labelRequired {
   color: hsl(0, 100%, 67%) !important;
 }
@@ -153,7 +148,7 @@ button img {
   border-color: hsl(0, 100%, 67%) !important;
 }
 
-/* Media Queries */
+/*Ajuste de telas para responsividade*/
 @media (min-width: 480px) {
   .backbox {
     padding: 56px;
@@ -215,7 +210,6 @@ button img {
   }
 }
 
-/* Ajustes para telas muito pequenas */
 @media (max-width: 375px) {
   form {
     gap: 12px;
